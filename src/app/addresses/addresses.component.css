@@ -1,0 +1,18 @@
+.result {
+  position: absolute;
+  left: 1vw; top: 5vh;
+  width: 20vw; height: 4vh;
+  font-family: Arial; font-size: 3.5vh; line-height: 4vh;
+}
+
+.selectpanel{
+  position: absolute;
+  left: 1vw; top: 15vh;
+  width: 20vw;
+}
+.selectpanel app-select {margin: 0 1vw;}
+
+.papersheet{
+  padding: 1vw 2vh;
+  box-shadow: 0.5vh 0.5vh 1.5vh 0 rgba(0,0,0,0.1);
+}

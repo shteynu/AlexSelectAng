@@ -1,0 +1,7 @@
+<div class="result papersheet">
+  <span>{{country}}, {{city}}</span>
+</div>
+<div class="selectpanel papersheet">
+  <app-select [array] = "countries" (choice)="setCountry($event)"></app-select>
+  <app-select [array] = "addr[country]" (choice)="setCity($event)"></app-select>
+</div>
